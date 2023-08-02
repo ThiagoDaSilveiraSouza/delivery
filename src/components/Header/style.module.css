@@ -1,0 +1,68 @@
+.mainHeader {
+  height: 160px;
+  background: var(--light-color)
+}
+
+.fixedHeader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 160px;
+  box-shadow: 0 0 3px 0 var(--primary-color);
+}
+
+.fixedHeader > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  height: 65px;
+  box-sizing: border-box;
+}
+
+/* logoContainer */
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 148px;
+  height: 65px;
+}
+
+.logoDefault {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--primary-color);
+  font-size: var(--font-size-1);
+  color: var(--primary-color);
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+/* .addressContainer */
+.addressContainer {
+  /* width: 175px; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.addressContainer > p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: var(--font-size-4);
+}
+.addressContainer > p:first-child {
+  color: var(--primary-color);
+}
+.addressContainer > p:last-child {
+  color: var(--secondary-color);
+  font-weight: bolder;
+}

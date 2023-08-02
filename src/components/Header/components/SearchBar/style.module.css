@@ -1,0 +1,19 @@
+.searchBarForm {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: 1px solid var(--light-primary-color);
+  border-radius: 5px;
+  font-size: var(--font-sizer-4);
+}
+
+.searchBarForm svg {
+  color: var(--light-primary-color);
+}
+.searchBarForm > input:focus {
+  outline: none;
+}
+.searchBarForm > input::-webkit-input-placeholder {
+  color: var(--light-primary-color);
+}

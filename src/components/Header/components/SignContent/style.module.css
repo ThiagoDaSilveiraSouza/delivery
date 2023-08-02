@@ -1,0 +1,21 @@
+.sign {
+  position: relative;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.sing:hover {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.102);
+}
+
+.signContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--primary-color);
+  padding: 0 10px;
+  box-sizing: border-box;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.mainButton {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.mainButton:hover {
+  box-shadow: 0 0 3px 0 gray;
+}
+
+.small {
+  width: 50px;
+}
+
+.medium {
+  width: 83px;
+}
+
+.large {
+  width: 114px;
+}
+
+.done {
+  background: var(--done-color);
+}
+
+.warning {
+  background: var(--warning-color);
+}
+
+.negate {
+  background: var(--negate-color);
+}
